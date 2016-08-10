@@ -1,0 +1,80 @@
+/* top part */
+/* white text color */
+/* grey text color */
+/* bottom border color */
+/* background color of radio */
+/* background color of bottom part - footer */
+/* container color */
+* {
+  box-sizing: border-box;
+  margin: 0; }
+  * body {
+    font-family: Helvetica Neue;
+    font-size: 44px;
+    width: 1600px;
+    height: 1200px;
+    margin: 0 auto; }
+    * body .flex {
+      display: flex; }
+    * body .flexCenter {
+      justify-content: center;
+      align-items: center; }
+    * body .container {
+      background-color: #21212B; }
+      * body .container .radio {
+        display: inline-block;
+        width: 640px;
+        height: 1100px;
+        background-color: #30303B;
+        margin: 50px 50px;
+        position: relative; }
+        * body .container .radio header {
+          display: flex;
+          height: 160px;
+          width: 100%;
+          background-color: #EDAD61;
+          color: #FFFFFF;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 0;
+          .left-float: left; }
+          * body .container .radio header p {
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 0 140px; }
+          * body .container .radio header img {
+            display: inline-block; }
+          * body .container .radio header .right {
+            float: right; }
+        * body .container .radio .middle {
+          display: inline-block;
+          padding-top: 210px; }
+        * body .container .radio .middle table tbody tr {
+          width: 100%;
+          height: 100%; }
+        * body .container .radio .middle {
+          width: 100%;
+          display: block; }
+          * body .container .radio .middle table {
+            width: 100%; }
+        * body .container .radio .middle table tbody tr td {
+          display: block;
+          color: #A2ABBD;
+          border-bottom: solid 2px #4D505C;
+          padding: 50px 40px 30px;
+          width: 100%;
+          margin: 0; }
+          * body .container .radio .middle table tbody tr td + td + td + td + td {
+            border-bottom-style: none; }
+          * body .container .radio .middle table tbody tr td span {
+            float: right; }
+        * body .container .radio footer {
+          width: 100%;
+          height: 160px;
+          background-color: #22222B;
+          position: absolute;
+          bottom: 0;
+          border-top: 2px solid #4D505C; }
+
+/*# sourceMappingURL=main2.css.map */
