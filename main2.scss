@@ -83,18 +83,15 @@
 							color: $grey;
 							border-bottom: solid 2px $bb;
 							padding: 50px 0 30px;
-							width: 100%;
 							margin: 0 40px;
-							
+
 								+ td + td + td + td {
 									border-bottom-style: none;
 								}
 
 								span {
 									float: right;
-									margin-right: 40px;
-								}
-
+								}						
 							}
 						}
 					}
