@@ -41,17 +41,14 @@
 					align-items: center;
 					position: absolute;
 					top: 0;
+					border-top-left-radius: 50px;
+					border-top-right-radius: 50px;
 
 					p {
 						text-transform: uppercase;
 						display: inline-block;
 						padding: 0 140px;
 					}
-
-					img {
-						display: inline-block;
-					}
-
 
 					.left: {
 						float: left;
@@ -67,12 +64,14 @@
 				}
 
 				.middle {
-					padding-top: 210px;
+					padding-top: 160px;
 					width: 100%;
 					display: block;
+					background-color: $contc;
 
 					table {
 						width: 100%;
+						background-color: $bgc;
 
 						tbody tr {
 						width: 100%;
@@ -87,6 +86,33 @@
 
 								+ td + td + td + td {
 									border-bottom-style: none;
+								}
+
+								.row {
+									padding-bottom: 20px;
+									display: flex;
+									justify-content: center;
+									align-items: center;
+
+
+									.volume {
+										width: 12%;
+									}
+
+									.planet {
+									width: 40%;
+									margin: 0 90px;
+									}
+								}
+
+								.disable {
+									display: none;
+								}
+
+								p {
+									display: block;
+								
+
 								}
 
 								span {
@@ -104,6 +130,8 @@
 					position: absolute;
 					bottom: 0;
 					border-top: 2px solid $bb;
+					border-bottom-left-radius: 50px;
+					border-bottom-right-radius: 50px;
 				}
 			}
 		}
