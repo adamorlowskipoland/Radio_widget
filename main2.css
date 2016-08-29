@@ -103,6 +103,7 @@
             color: #A2ABBD;
             font-size: 44px; }
           * body .container .radio footer .disable {
+            /* doesn't show because class is added in html */
             display: none; }
 
 /*# sourceMappingURL=main2.css.map */
